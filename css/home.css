@@ -1,0 +1,101 @@
+.baseInfo {
+    width: 1100px;
+    margin: 0 auto;
+    height: 642px;
+    padding-top: 256px;
+}
+.baseInfo h2 {
+    margin-bottom: 54px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.info li img {
+    display: block;
+    width: 39px;
+    height: 49px;
+    text-align: center;
+    margin-bottom: 26px;
+    background: #07689F;    
+}
+.info li {
+    width: 230px;
+}
+.info li p {
+    margin-bottom: 15px;
+    color: #545454;
+}
+.useMethod {
+    height: 710px;
+    background: url(../img/圆形.png) no-repeat;
+    background-size: 100% 111%;
+}
+.useMethod .sectionBox {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 431px;
+    margin-top: 183px;
+    margin-right: 11.74%;
+}
+.useMethod .sectionBox h2 {
+    margin-top: 21px;
+    margin-bottom: 17px;
+    font-size: 32px;
+}
+.super {
+    color: #A2D5F2;
+    font-size: 21px;
+}
+.shopInfo {
+    margin: 20px 0;
+}
+.useMethod .sectionBox .useInfo ,
+.useMethod .sectionBox .shopInfo {
+    color: #7D7D7D;
+}
+.useMethod .sectionBox>p {
+    color: #07689F;
+}
+.leartBtn {
+    margin-top: 36px;
+}
+.leartBtn button {
+    width: 190px;
+    height: 52px;
+    background: #FF7E67;
+    border-radius: 0px;
+    color: #fff;
+}
+.insertContent {
+    padding-top: 65px;
+    padding-bottom: 56px;
+    background-color: #F0B500;
+}
+.insertContent h3 {
+    margin: 0 auto;
+    width: 677px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #FFFFFF;;
+    line-height: 47px;
+}
+.insertContent > p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 31px;
+    color: #fff;
+}
+.getBtn {
+    text-align: center;
+}
+.getBtn button {
+    width: 180px;
+    height: 42px;
+    border: 1px solid #FAFAFA;
+    color: #fff;
+    background: none;
+}
