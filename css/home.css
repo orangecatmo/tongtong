@@ -99,3 +99,153 @@
     color: #fff;
     background: none;
 }
+.petsSay .sectionBox {
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 99px 0 105px;
+}
+.petsSay .sectionBox .title {
+    display: inline-block;
+    font-size: 36px;
+    font-family: HiraKakuStd;
+    color: #000;
+}
+.petsSay .sectionBox>p {
+    width: 432px;
+    font-size: 16px;
+    font-family: Kozuka Gothic Pr6N;
+    color: #868686;
+    line-height: 23px;
+}
+.petsSay .sectionBox ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 76px;
+}
+.petsSay .sectionBox ul li p:nth-last-child(1) {
+    margin: 0 auto;
+    width: 201px;
+    font-size: 16px;
+    font-family: Kozuka Gothic Pr6N;
+    color: #8F8F8F;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+.petsSay .sectionBox ul li p:nth-last-child(2) {
+    font-size: 14px;
+    font-family: Kozuka Gothic Pr6N;
+    color: #FF7E67;
+    margin: 13px 0;
+}
+.petsSay .sectionBox ul li img {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    padding-top: 40px;
+    padding-bottom: 31px;
+    box-sizing: content-box;
+}
+.petsSay .sectionBox ul li {
+    width: 257px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 42px 0px rgba(238, 238, 238, 0.7);
+}
+.petsSay .sectionBox ul li h5 {
+    font-size: 18px;
+    font-family: HiraKakuStd;
+    color: #07689F;
+}
+.daily .sectionBox {
+    margin: 0 auto;
+    padding-top: 56px;
+    padding-bottom: 111px;
+    flex-direction: column;
+    box-sizing: content-box;
+}
+.daily .sectionBox .title {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-family: HiraKakuStd;
+    font-weight: normal;
+    color: #000000;
+}
+.daily .sectionBox > p {
+    width: 536px;
+    font-size: 16px;
+    margin-top: 17px;
+    margin-bottom: 57px;
+    margin: 17px auto 57px;
+    font-family: Adobe Heiti Std;
+    font-weight: normal;
+    color: #8F8F8F;
+    line-height: 23px;
+}
+.daily .sectionBox ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 57px;
+}
+.daily .sectionBox ul li {
+    background-color: #fff;
+    box-shadow: 0px 0px 42px 0px rgba(238, 238, 238, 0.7);
+}
+.daily .sectionBox .video {
+    position: relative;
+    width: 341px;
+    height: 215px;
+    background-color: #E3E3E3;
+}
+.daily .sectionBox .video .label {
+    position:absolute;
+    bottom: 0;
+    left: 34px;
+    background-color: #FF7E67;
+    color: #fff;
+}
+.daily .sectionBox .video .label p {
+    text-align: center;
+}
+.daily .sectionBox .video .label p:nth-child(1) {
+    margin: 10px 11px 0 11px;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #FAFAFA;
+}.daily .sectionBox .video .label p:nth-child(2) {
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #FAFAFA;
+    margin-top: 8px;
+    margin: 10px;
+}
+.daily .sectionBox ul li h5 {
+    width: 271px;
+    margin: 34px auto 0;
+    font-size: 18px;
+    font-family: Kozuka Gothic Pr6N;
+    color: #07689F;
+}
+.daily .sectionBox ul li > p {
+    width: 259px;
+
+font-size: 14px;
+font-family: Montserrat;
+font-weight: 400;
+color: #8F8F8F;
+margin: 13px auto;
+}
+.daily .sectionBox ul li .year {
+    display: block;
+    width: 259px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #A2D5F2;
+    margin-bottom: 36px;
+}

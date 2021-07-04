@@ -1,0 +1,49 @@
+footer {
+    width: 100%;
+    background-color: #FFC000;
+}
+footer .footerInfo {
+    padding-top: 103px;
+    padding-bottom: 90px;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footerInfo li:nth-child(1) .liTitle{
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+footer .footerInfo li:nth-child(n+2) .liTitle {
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+footer .footerInfo li:nth-child(1) .endIns {
+    width: 301px;
+    font-size: 16px;
+    font-family: Myriad Pro;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 23px;
+    margin: 36px 0;
+}
+footer .footerInfo li:nth-child(1) .lxMe div {
+    display: inline-block;
+}
+footer .footerInfo li:nth-child(1) .lxMe div:nth-child(n+2) {
+    margin-left: 21px;
+}
+footer .footerInfo li:nth-child(n+2) .minInfo {
+    margin-top: 28px;
+}
+footer .footerInfo li:nth-child(n+2) .minInfo li {
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
