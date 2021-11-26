@@ -1,0 +1,264 @@
+/*为通配符,代表所有,清除所有元素的内外边距*/
+
+* {
+    margin: 0;
+    padding: 0;
+    /*设置盒子模型的宽度 width= border+padding+content*/
+    box-sizing: border-box
+}
+
+header {
+    /*开启弹性盒子*/
+    display: flex;
+    /*子盒子分两边排列,紧贴左右边框*/
+    justify-content: space-between;
+    /*子盒子相对于父盒子垂直居中*/
+    align-items: center;
+    background-color: #7ef0ff;
+    height: 80.7px;
+}
+
+
+/*头部左边盒子样式开始*/
+
+header .hd-left {
+    margin-left: 26px;
+}
+
+header .hd-left .title {
+    /*normal初始粗细， 也就是取消了h1标签默认加粗*/
+    font-weight: normal;
+    font-size: 36px;
+}
+
+
+/*头部左边盒 子样式结束*/
+
+header .hd-right {
+    margin-right: 19px;
+}
+
+header .hd-right p:first-child {
+    display: inline-block;
+    font-size: 12px;
+    transform: scale(.5) translateX(50px);
+    color: #000;
+    margin-bottom: 10px;
+}
+
+header .hd-right p:nth-child(2) {
+    font-size: 12px;
+}
+
+header.hd-right p:nth-child(2) a:first-child {
+    margin-right: 11 3px;
+}
+
+
+/*头部右边盒子样式开始*/
+
+header .hd-right {
+    margin-right: 19px;
+}
+
+
+/*选择. hd-right里面的第一个p标签*/
+
+header .hd-right p:first-child {
+    font-size: 12px;
+    /*只有块级元素才能使用transfrom*/
+    /*缩放0.5倍这时候整个元素逗会被缩放，所以需要调整元素在X轴的位置*/
+    transform: scale(.5) translateX(50px);
+    color: C #000;
+    margin-bottom: 8px;
+}
+
+
+/*选择. hd-right里面的第二个p标签*/
+
+header .hd-right p:nth-chi1d(2) {
+    font-size: 12px;
+}
+
+
+/*选择. hd-right里面的第二个p标签里的第一 个a标签 */
+
+header .hd-right p:nth-child(2) a:first-child {
+    margin-right: 11.3px;
+}
+
+
+/*选择. hd-right里面的第二个p标签里的所有a标签*/
+
+header .hd-right p:nth-chi1d(2) a {
+    color: #000;
+    /*取消a标签默认的下划线*/
+    text-decoration: none;
+}
+
+
+/*头部右边盒子样式结束*/
+
+
+/* 日历日期start*/
+
+.container {
+    padding: 15.3px 20px 0 29px;
+}
+
+.date-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-top .date-top-I {
+    width: 94.14px;
+    height: 52.3px;
+    padding-top: 7.8px;
+    text-align: center;
+    background-color: #7eF0FF;
+    border-radius: 12px;
+}
+/* january */
+.date-top .date-top-I p:first-child {
+    font-size: 14px;
+    /* 浏览器最小支持12px 设置最小于px的最终还是12px */
+}
+
+.date-top .date-top-r {
+    width: 123px;
+    font-size: 12px;
+}
+
+.date-top .date-top-r {
+    margin-bottom: 8px;
+}
+
+.date-top .date-top-r p:first-child {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+
+/* 从第二个p标签开始 */
+/* 1/1两条线的距离 */
+.date-top .date-top-r p:nth-child(n+2) {
+    color: #FF1D1d;
+    margin-bottom: 6px;
+}
+
+.date-top .date-top-r p:nth-child(n+2)::after {
+    /* 激活为元素 */
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #B1BDD3;
+}
+
+.date-top .date-top-r p:last-child span:last-child {
+    float: right;
+    width: 15px;
+    height: 15px;
+    background-color: #B1BDD3;
+    /* 圆 */
+    border-radius: 50%;
+}
+
+
+/* .div-top.date-top-r p:nth-child()"date-content-top"> */
+
+
+/*日历 */
+
+.rili {
+    padding: 30px 0 20px 0px;
+}
+
+.tl-toubu {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tl-toubu p {
+    font-weight: bold;
+    font-size: 30px;
+}
+/* 箭头中间的空隙 */
+.tl-toubu .ri-toubu-right {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 箭头图片对齐 */
+.tl-toubu .ri-toubu-right div:nth-child(1) {
+    margin-top: 11px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgba(230, 230, 230, 0.4);
+}
+
+th,
+td {
+    border: 1px solid rgba(230, 230, 230, 0.5);
+    padding: 5px;
+    height: 7rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width:900px) {
+    th,
+    td {
+        height: 3rem;
+        font-size: 0.5rem;
+    }
+}
+
+td {
+    width: 50px;
+    text-align: right;
+}
+
+.rl-top>tr:nth-child(1) th {
+    border: none;
+}
+
+.rl-top>tr:nth-child(2)>td:nth-child(n+2) {
+    background-color: #a4d7dc;
+}
+
+.rl-top>tr:nth-child(2)>td:nth-child(-n+1) {
+    color: #dedede;
+}
+
+.rl-top>tr:nth-child(3)>td {
+    background-color: #a9c7d5;
+}
+
+.rl-top>tr:nth-child(4)>td {
+    background-color: #b8b1cc;
+}
+
+.rl-top>tr:nth-child(5)>td {
+    background-color: #b7b1cc;
+}
+
+.rl-top>tr:nth-child(6)>td:nth-child(-n+3) {
+    background-color: #bea3c6;
+}
+
+.rl-top>tr:nth-child(6)>td:nth-child(n+4) {
+    color: #dedede;
+}
+
+.today {
+    color: red;
+}
